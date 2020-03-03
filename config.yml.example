@@ -1,0 +1,30 @@
+environment: development
+debug: true
+app_key: 
+web_url: http://you-noob.com
+app_url: local-uaa-app.localhost
+app_port: 8080
+subDomainAPI:
+  enabled: false
+  subdomain: local-uaa-api.localhost
+database:
+  default:
+    driver: mysql
+    host: database-host
+    db: db1
+    username: root
+    password: 1234
+    port: 3306
+  iot-api:
+    driver: mysql
+    host: database-host
+    db: db2
+    username: root
+    password: 1234
+redis:
+  default:
+    host: redis host
+    port: 6379
+    password: asdfqwer
+    db: 1
+    keyPrefix: 
